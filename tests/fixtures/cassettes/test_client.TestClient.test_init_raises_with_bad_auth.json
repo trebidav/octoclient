@@ -1,0 +1,61 @@
+{
+  "http_interactions": [
+    {
+      "recorded_at": "2016-07-25T14:00:38",
+      "request": {
+        "body": {
+          "encoding": "utf-8",
+          "string": ""
+        },
+        "headers": {
+          "Accept": [
+            "*/*"
+          ],
+          "Accept-Encoding": [
+            "gzip, deflate"
+          ],
+          "Connection": [
+            "keep-alive"
+          ],
+          "User-Agent": [
+            "python-requests/2.10.0"
+          ],
+          "X-Api-Key": [
+            "nope"
+          ]
+        },
+        "method": "GET",
+        "uri": "http://printer15.local/api/version"
+      },
+      "response": {
+        "body": {
+          "encoding": "utf-8",
+          "string": "Invalid API key"
+        },
+        "headers": {
+          "Content-Length": [
+            "15"
+          ],
+          "Content-Type": [
+            "text/html; charset=utf-8"
+          ],
+          "Server": [
+            "TornadoServer/4.0.1"
+          ],
+          "Set-Cookie": [
+            "session=eyJfaWQiOnsiIGIiOiJaVGMxTkRZNU1XWm1ORE5sTlRFeU1ERmpaVFJsTmpoa1pXTTJNMlUyWVRBPSJ9fQ.CnetBg.vtMrh7AJognkQw0TsmD2_6kM47k; Path=/; HttpOnly"
+          ],
+          "X-Clacks-Overhead": [
+            "GNU Terry Pratchett"
+          ]
+        },
+        "status": {
+          "code": 401,
+          "message": "UNAUTHORIZED"
+        },
+        "url": "http://printer15.local/api/version"
+      }
+    }
+  ],
+  "recorded_with": "betamax/0.7.1"
+}

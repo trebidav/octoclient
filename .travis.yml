@@ -1,0 +1,11 @@
+language: python
+python:
+- '3.3'
+- '3.4'
+- '3.5'
+- pypy3
+- nightly
+install:
+- python setup.py install
+script:
+- python setup.py test
